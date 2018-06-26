@@ -1,0 +1,22 @@
+p{
+    color:purple;
+    font-size:40px;
+}
+span{
+    display: inline-block;
+    line-height: 33px;
+    text-align: center;
+}
+ul{
+    list-style: none;
+    cursor: pointer;
+}
+h1{
+    color:blue;
+}
+.unselected{
+    border: 1px solid black;
+}
+.selected{
+    background:yellow;
+}

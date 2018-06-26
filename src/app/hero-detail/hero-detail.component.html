@@ -1,0 +1,12 @@
+<!-- 这里是heroes的子组件 -->
+<div *ngIf="hero">
+  <h2>{{ hero.name | uppercase }} Details</h2>
+  <div>
+    <span>id: </span>{{hero.id}}</div>
+  <div>
+    <label>name:
+      <input [(ngModel)]="hero.name" placeholder="name" />
+      <!-- [(ngModel)]是angular中双向绑定的语法 -->
+    </label>
+  </div>
+</div>
